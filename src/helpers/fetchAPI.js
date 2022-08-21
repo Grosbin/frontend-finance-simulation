@@ -1,5 +1,7 @@
 
-const baseUrl = 'http://localhost:4000/api/simulation';
+
+// const baseUrl = 'http://localhost:4000/api/simulation';
+const baseUrl = 'https://is-teoria-simulacion.herokuapp.com';
 
 export const fetchAPI = (endPoint, data, method = 'GET') => {
 	const url = `${baseUrl}/${endPoint}`;
