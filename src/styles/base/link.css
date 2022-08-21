@@ -1,0 +1,8 @@
+.link__doc {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4338ca;
+  cursor: pointer;
+  margin-top: 10px;
+}

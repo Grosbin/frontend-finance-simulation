@@ -1,0 +1,20 @@
+.space-left__button {
+  margin: 50px 0px 30px 0px;
+}
+
+.buttom__doc {
+  margin-top: 40px 0px 30px 0px;
+  position: fixed;
+  top: 20px;
+  right: 70px;
+  z-index: 1;
+}
+
+.button__evalute-project {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 245px;
+  padding-top: 10px;
+}

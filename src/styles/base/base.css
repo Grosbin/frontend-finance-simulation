@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /*========== Colores  ==========*/
+  --student-color: #ffbd08;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #eff3f8;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--blue-800);
+}
+
+.link:hover {
+  color: var(--blue-600);
+}
+.main {
+  padding: 60px 30px 30px 30px;
+  margin: 0;
+  position: relative;
+  /* height: 100vh; */
+}
+.container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.container__start {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-area: "logoUreview logoUreview" "botonTutorial botonTutorial"
+    "start start" "start start";
+}
+
+.detail__container {
+  margin-top: 50px;
+}
+
+/* TODO: Pagina de Acerca de*/
+.surface-0 {
+  background-color: var(--surface-0) !important;
+  border-radius: 0.5rem;
+  padding-top: 20px;
+}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+  gap: 15px;
+}
