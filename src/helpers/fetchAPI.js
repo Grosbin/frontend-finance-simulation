@@ -1,7 +1,7 @@
 
 
 // const baseUrl = 'http://localhost:4000/api/simulation';
-const baseUrl = 'https://is-teoria-simulacion.herokuapp.com/api/simulation';
+const baseUrl = 'https://backend-finance-simulation-production.up.railway.app/api/simulation';
 
 export const fetchAPI = (endPoint, data, method = 'GET') => {
 	const url = `${baseUrl}/${endPoint}`;
